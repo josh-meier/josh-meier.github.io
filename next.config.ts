@@ -19,11 +19,11 @@ const nextConfig: NextConfig = {
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
   
-  assetPrefix: isProd ? '/josh-meier.github.io/' : '',
-  basePath: isProd ? '/josh-meier.github.io' : '',
+  // assetPrefix: isProd ? '/josh-meier.github.io/' : '',
+  // basePath: isProd ? '/josh-meier.github.io' : '',
 
-  // assetPrefix: '/out',
-  // basePath: '/out',
+  assetPrefix: '/out',
+  basePath: '/out',
   /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.

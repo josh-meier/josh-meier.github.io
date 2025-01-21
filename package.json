@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "build_fix": "next build && bash fix_export_ssg.sh",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
