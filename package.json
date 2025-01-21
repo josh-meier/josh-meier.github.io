@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://josh-meier.github.io",
+  "homepage": "https://josh-meier.github.io/josh-meier.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +12,8 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
