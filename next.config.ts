@@ -19,8 +19,13 @@ const nextConfig: NextConfig = {
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
   
-  assetPrefix: isProd ? '/josh-meier.github.io/out' : '',
-  basePath: isProd ? '/josh-meier.github.io/out' : '',
+  // assetPrefix: isProd ? '/josh-meier.github.io/out/' : '',
+  // basePath: isProd ? '/josh-meier.github.io/out' : '',
+
+  
+  assetPrefix: isProd ? '/josh-meier.github.io/' : '',
+  basePath: isProd ? '/josh-meier.github.io' : '',
+
 
   // assetPrefix: '/out',
   // basePath: '/out',
